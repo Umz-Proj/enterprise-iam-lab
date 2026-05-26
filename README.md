@@ -59,6 +59,8 @@ The project is focused on developing practical, hands-on experience with:
 | DNS Configuration | Complete |
 | OU Structure | Complete |
 | Group Policy Management | Complete |
+| Domain Joined Windows Client | Complete |
+| Domain User Authentication | Complete |
 | Azure / Entra ID | Planned |
 | MFA | Planned |
 | PowerShell Automation | Planned |
@@ -85,6 +87,9 @@ The project is focused on developing practical, hands-on experience with:
 ### Active Directory DNS Configuration
 ![DNS Configuration](screenshots/windows-server/active-directory-dns-configuration.png)
 
+### Domain Joined Windows Client
+![Domain Joined Client](screenshots/windows-server/domain-joined-windows-client.png)
+
 ---
 
 ## Active Directory
@@ -94,6 +99,9 @@ The project is focused on developing practical, hands-on experience with:
 
 ### Group Policy Management
 ![Group Policy Management](screenshots/active-directory/group-policy-management-overview.png)
+
+### Domain User Authentication
+![Domain Authentication](screenshots/active-directory/domain-user-authentication.png)
 
 ---
 
@@ -129,12 +137,15 @@ Through this lab I am developing practical experience with:
 - [x] Active Directory setup
 - [x] DNS configuration
 - [x] Group Policy Management
+- [x] Domain joined Windows client
+- [x] Active Directory authentication
 
 ## Phase 2 — Identity Administration
 - [ ] User provisioning
 - [ ] Group management
 - [ ] RBAC implementation
-- [ ] Domain joined client machines
+- [ ] Security group administration
+- [ ] GPO deployment to client machines
 
 ## Phase 3 — Cloud Identity
 - [ ] Microsoft Azure integration
@@ -147,5 +158,4 @@ Through this lab I am developing practical experience with:
 - [ ] PowerShell automation
 - [ ] IAM workflows
 - [ ] Security hardening
-- [ ] Identity governance concepts# enterprise-iam-lab
-Hands-on enterprise IAM lab focused on Active Directory, Azure/Entra ID, RBAC, MFA, and hybrid identity architecture.
+- [ ] Identity governance concepts
